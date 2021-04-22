@@ -1,0 +1,21 @@
+Quiz Quest Instructions
+
+Start the QuizQuestServer, before the QuizQuestClient. Two clients are necessary to play the game on the same Server. No more & no less.
+Opening the Client will prompt you with a "login" GUI. Enter an ip & username. Not entering anything will set a default "localhost" ip & a randomly generated numeric username.
+Each GUI has a Info/Help menu option which will explain things further. Read these for further information.
+
+
+Server:
+Server will print information about client connections and game status as it progresses.
+E.g. Anonymous executed an action.
+     P1: 4 P2: 1 Next turn: P2
+-P1 - represents player 1's current position
+-P2 - same as P1, just for player 2
+-Next turn - the player who goes next
+
+
+---------------------
+Folders/Directories:
+Icons - contains the Icons used in the game (do not move folder)
+Java_Code - the code of the game (non-jar files)
+other - contains the folder in which jar files were made - the manuscript is inside here for both Client & Server
